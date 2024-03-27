@@ -1,0 +1,50 @@
+Bug Report #1: Sensor Data Drift
+
+Description: Temperature sensor readings are gradually drifting higher over time.
+Steps to Reproduce:
+Place temperature sensor in a controlled environment.
+Record temperature readings at regular intervals.
+Compare readings over days or weeks.
+Expected Behavior: Temperature readings should remain consistent over time.
+Actual Behavior: Temperature readings show a gradual increase, indicating sensor drift.
+Priority: High, as inaccurate temperature readings could impact environmental analysis.
+Bug Report #2: Data Dropout in Remote Monitoring
+
+Description: Data intermittently drops out when accessing the system remotely.
+Steps to Reproduce:
+Access monitoring system remotely using web or mobile app.
+Monitor data streams for interruptions or delays.
+Note instances where data is not displayed or updated.
+Expected Behavior: Continuous and reliable access to sensor data remotely.
+Actual Behavior: Data intermittently disappears or fails to update during remote access sessions.
+Priority: Medium, as it affects user experience and data reliability.
+Bug Report #3: Incorrect AQI Calculation
+
+Description: Air Quality Index (AQI) calculation shows inconsistent results compared to official standards.
+Steps to Reproduce:
+Compare sensor readings with established AQI calculations.
+Calculate AQI based on pollutant concentrations using standard formulas.
+Compare calculated AQI with expected values for given pollutant levels.
+Expected Behavior: AQI calculations align with recognized standards and formulas.
+Actual Behavior: AQI values calculated by the system deviate from expected values, indicating a calculation error.
+Priority: High, as accurate AQI calculations are crucial for public health advisories.
+Bug Report #4: Inconsistent Data Timestamps
+
+Description: Data timestamps do not match actual measurement times.
+Steps to Reproduce:
+Record sensor readings along with timestamps.
+Compare timestamps with real-time clock or external reference.
+Note any discrepancies or inconsistencies in timestamp accuracy.
+Expected Behavior: Data timestamps accurately reflect the time of data acquisition.
+Actual Behavior: Data timestamps show inconsistencies or drift compared to real-time clock.
+Priority: Medium, as accurate timestamps are essential for data analysis and correlation.
+Bug Report #5: Missing Data for Specific Sensors
+
+Description: Data from certain sensors is missing or incomplete in the system.
+Steps to Reproduce:
+Review data logs for completeness across all sensors.
+Identify sensors with missing or irregular data patterns.
+Verify sensor connections and data transmission mechanisms.
+Expected Behavior: Continuous and complete data collection from all sensors.
+Actual Behavior: Data from specific sensors is missing or sporadic, leading to gaps in environmental monitoring.
+Priority: High, as missing data could skew analysis and decision-making.
